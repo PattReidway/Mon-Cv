@@ -5,21 +5,35 @@
     font-size: 12 px;
     
     /* color */
-    --primary-color: #5ab881;
+    --primary-color: #72cc98;
     --menu-text-color: white;
     
 }
+button {
+    border: none;
+    background: none;
+}
 
 /* header */
+.open-profil{
+    position: absolute;
+    top: 70px;
+    width: 57px;
+    height: 45px;
+    cursor: pointer;
+    color: white;
+    font-size: 40px;
+}
 
 #header {
+    /* display: none; */
     position:relative;
     top: -8px;
     left: -8px;
     width: 105%;
     background-color: var(--primary-color);
     z-index: 100;
-
+    
 }
 
 .header-container{
@@ -37,16 +51,40 @@ position: relative;
 #title-name{
     color: var(--menu-text-color);
      position: relative;
-     top: 20px;
+    
      font-size: 36px;   
 }
 
 
 /* section profil */
-
+.close-profil{
+    position: absolute;
+    right: 0px;
+    top: 2px;
+    cursor: pointer;
+    color: white;
+    font-size: 40px;
+}
 .profil{
     display: none;
+    position: absolute;
+    left: 0;
+    top:0;
+    bottom: 0;
+    background-color: var(--primary-color);
+    opacity: 0.96;
+    z-index: 110;
 }
+
+.contact{
+
+}
+
+.profil-list{
+    color: var(--menu-text-color);
+
+}
+
 .page{
     position:absolute;
 }
@@ -74,7 +112,9 @@ position: relative;
 }
 
 .exp-pro-title{
-
+color: var(--primary-color);
+font-size: 20px;
+border-bottom: 2px solid #72cc98 ;
 }
 
 
@@ -89,7 +129,9 @@ position: relative;
 }
 
 .comp-title{
-
+    color: var(--primary-color);
+    font-size: 20px;
+    border-bottom: 2px solid #72cc98 ;
 }
 
 .list-comp{
@@ -105,6 +147,22 @@ position: relative;
     position:absolute ;
     left: 0;;
     width: 100%;
+    height: 150px;
     background-color: var(--primary-color);
     z-index: 100;
+    color: white;
+    bottom: ;
+}
+
+.title-footer{
+    position: relative;
+    left: 20px;
+}
+
+.tel-footer{
+
+}
+
+.mail-footer{
+
 }
