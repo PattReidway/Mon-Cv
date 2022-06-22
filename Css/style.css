@@ -1,0 +1,110 @@
+
+
+:root{
+    /* size */
+    font-size: 12 px;
+    
+    /* color */
+    --primary-color: #5ab881;
+    --menu-text-color: white;
+    
+}
+
+/* header */
+
+#header {
+    position:relative;
+    top: -8px;
+    left: -8px;
+    width: 105%;
+    background-color: var(--primary-color);
+    z-index: 100;
+
+}
+
+.header-container{
+    display: flex;
+    align-items:baseline;
+    justify-content: space-between;  
+}
+
+.p-header{
+    color: var(--menu-text-color);
+position: relative;
+    top: -32px;
+    font-size: 37px;
+}
+#title-name{
+    color: var(--menu-text-color);
+     position: relative;
+     top: 20px;
+     font-size: 36px;   
+}
+
+
+/* section profil */
+
+.profil{
+    display: none;
+}
+.page{
+    position:absolute;
+}
+
+.comp-title{
+    color: var(--primary-color);
+}
+
+/* Expérience */
+
+.profil{
+
+}
+
+.contact{
+
+}
+
+.exp-pro{
+
+}
+
+.exp-pro-list{
+
+}
+
+.exp-pro-title{
+
+}
+
+
+/* Compétence */
+
+.competence{
+
+}
+
+.noIdea{
+
+}
+
+.comp-title{
+
+}
+
+.list-comp{
+
+}
+
+
+
+
+/* footer */
+
+#footer{
+    position:absolute ;
+    left: 0;;
+    width: 100%;
+    background-color: var(--primary-color);
+    z-index: 100;
+}
