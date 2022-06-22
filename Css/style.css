@@ -117,6 +117,9 @@ font-size: 20px;
 border-bottom: 2px solid #72cc98 ;
 }
 
+a:visited{
+    color: var(--primary-color);
+}
 
 /* Compétence */
 
@@ -153,16 +156,20 @@ border-bottom: 2px solid #72cc98 ;
     color: white;
     bottom: ;
 }
-
+.footer-contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 .title-footer{
-    position: relative;
+    position: absolute;
     left: 20px;
 }
 
 .tel-footer{
-
+position: absolute;
 }
 
 .mail-footer{
-
+position: absolute;
 }
